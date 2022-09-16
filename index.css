@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+.logo h2{
+    font-weight: bold;
+}
+.logo h2 span{
+    color: red;
+}
+.logo h2 i{
+    line-height: 1%;
+}
+.wrapper{
+    height: 69px;
+    border-bottom: 2px solid black;
+}
+.wrapper h3{
+    position: relative;
+    bottom: 60px;
+    left: 700px;
+    border: 2px solid gray;
+    width: 171px;
+    padding: 10px;
+    background-color: indianred;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.wrapper .search-box{
+    position: relative;
+    left: 1102px;
+    bottom: 119px;
+    border: none;
+    text-decoration: transparent;
+    background-color: white;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.wrapper .search-box i{
+    margin-left: 10px;
+}
+.navbar{
+    background-color: black;
+    border-radius: 20px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin:13px;
+}
+.navbar li a{
+    color: white;
+    position: relative;
+    left: 550px;
+    font-size: 20px;
+}
+.navbar a:hover{
+    color: darkcyan;
+}
+.maindiv{
+    position: relative;
+    bottom: 66px;
+}
+.maindiv{
+    background-color: black;
+    height: 100vh;
+     width: 0;   /* to complete hide the div in the starting  */
+     
+}
+.dropdown{
+    font-weight: bold;
+    text-align: left;
+    list-style-type: none;
+    margin: 50px;
+    color: black;
+    font-size: 20px;
+    display: none;  /* to complete hide the li in the starting  */
+}
+.dropdown button{
+    position: relative;
+    right: 40px;
+    background-color: black;
+    border: none;
+    font-weight: bold;
+}
+.container{
+    height: 256px;
+    display: inline-block;
+    position: relative;
+    bottom: 731px;
+    left: 268px;
+    padding: 20px;
+    border: 2px solid red;
+    background-color: brown;
+}
+.container h2{
+    position: relative;
+    bottom: 135px;
+    left: 356px;
+    font-weight: bold;
+    color: white;
+}
+.container .btn{
+    position: relative;
+    left: 881px;
+    bottom: 207px;
+    border: none;
+    background-color: rgb(6, 15, 29);
+    color: white;
+    padding:10px;
+}
+.wrapper-sub{
+    width: 40%;
+    border: 2px solid gray;
+    border-radius: 9px;
+    position: relative;
+    left: 268px;
+    bottom: 789px;
+    padding:20px;
+}
+.wrapper-sub h3{
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    bottom: 30px;
+}
+.wrapper-sub .offer{
+    border: 2px solid rgb(202, 202, 236);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 9px;
+}
+.offer h4{
+    font-weight: bold;
+}
+.offer h4 span{
+    position: relative;
+    left: 201px;
+}
+.offer .span{
+    position: relative;
+    left: 404px;
+}
+.offer h5 button{
+    position: relative;
+    left: 311px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.voucher-menu .offer1{
+    border: 2px solid rgb(202, 202, 236);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 9px;
+}
+.offe1r h4{
+    font-weight: bold;
+}
+.offer1 h4 span{
+    position: relative;
+    left: 201px;
+}
+.offer1 .span{
+    position: relative;
+    left: 404px;
+}
+.offer1 h5 button{
+    position: relative;
+    left: 311px;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.offer button:hover{
+    text-decoration: underline;
+    font-size: 13px;
+}
+.voucher-menu .btn{
+    border: 2px solid rgb(202, 202, 236);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 9px;
+    width: 97%;
+}
+.voucher-menu .btn:hover{
+    color: indianred;
+    background-color: black;
+}
+.voucher-menu .offer1{
+    display: none;
+}
+.timings{
+    width: 30%;
+    height: 160px;
+    border: 2px solid gray;
+    border-radius: 9px;
+    position: relative;
+    left: 912px;
+    bottom: 1299px;
+    padding: 20px;
+}
+.timings img{
+    width: 28%;
+}
+.timings h3{
+    position: relative;
+    left: 132px;
+    bottom: 103px;
+    font-size: 20px;
+    font-weight: bold
+}
+.timings h4{
+    position: relative;
+    left: 137px;
+    bottom: 107px;
+    font-size: 15px;
+}
+.button-timing .store-timing{
+    position: relative;
+    bottom: 111px;
+    left: 136px
+}
+.display-timing{
+    border: 2px solid rgb(48, 44, 44);
+    padding: 10px;
+    width: 313px;
+    position: absolute;
+    right: 200px;
+    top: 149px;
+    z-index: 1;
+    background-color: cadetblue;
+    border-radius: 9px;
+    display: none;
+}
+.display-timing li{
+    list-style: none;
+    margin-top: 20px;
+}
+.display-timing .mon{
+    position: relative;
+    left: 100px;
+}
+.display-timing .tue{
+    position: relative;
+    left: 100px;
+}
+.display-timing .wed{
+    position: relative;
+    left: 81px;
+}
+.display-timing .thu{
+    position: relative;
+    left: 100px;
+}
+.display-timing .fri{
+    position: relative;
+    left: 119px;
+}
+.display-timing .sat{
+    position: relative;
+    left: 100px;
+}
+.display-timing .sun{
+    position: relative;
+    left: 109px;
+}
+.display-timing h5{
+    text-align: center;
+    font-size: 20px;
+   font-weight: bold;
+}
+.button-timing .store-timing{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.button-timing .store-timing:hover{
+    text-decoration: underline;
+    font-size: 16px;
+}
+.address{
+    width: 30%;
+    border: 2px solid gray;
+    position: relative;
+    left: 914px;
+    bottom: 1255px;
+    padding: 10px;
+    border-radius: 9px;
+}
+.address h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+.address h4{
+    line-height: 27px;
+    font-size: 15px;
+}
+.container-second{
+    width: 80%;
+    margin-left: 35px;
+    margin-right: 35px;
+    position: relative;
+    bottom: 1161px;
+    left: 144px;
+    border: 2px solid gray;
+}
+.item img{
+    float: left;
+    width: 25%;
+    position: relative;
+    left: 111px;
+    background-color: black;
+}
+.item .img0{
+    background-color: black;
+}
+.item .men{
+    position: relative;
+    right: 244px;
+    top: 397px;
+}
+.item .women{
+    position: relative;
+    right: 244px;
+    top: 343px;
+}
+.item .kid{
+    position: relative;
+    right: 244px;
+    top: 288px;
+}
+.item .img1{
+    padding: 10px;
+   position: relative;
+   top: 60px;
+}
+.item .img2{
+    padding: 10px;
+   position: relative;
+}
+.item .beauty{
+    position: relative;
+    right: 120px;
+    top: 329px;
+}
+.item .home{
+    position: relative;
+    right: 151px;
+    top: 313px;
+}
+.item .watch{
+    position: relative;
+    right: 106px;
+    top: 273px;
+}
+.container-box{
+    border: 2px solid gray;
+    width: 81%;
+    height: 192px;
+    position: relative;
+    bottom: 1108px;
+    left: 175px;
+}
+.container-box .facility{
+   display: flex;
+   padding: 10px;
+   margin-left: 57px;
+}
+.facility i{
+    position: relative;
+    left: 100px;
+    top: 26px;
+}
+.facility h3{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.facility .prod{
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+.facility .pro{
+    position: relative;
+    top: 92px;
+    right: 99px;
+}
+.facility .free{
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+.facility .del{
+    position: relative;
+    top: 92px;
+    right: 64px;
+}
+.facility .easy{
+    position: relative;
+    top: 50px;
+    left: -1px;
+}
+.facility .ret{
+    position: relative;
+    top: 92px;
+    right: 180px;
+}
+.facility .ex{
+    position: relative;
+    top: 50px;
+    right: 9px;
+}
+.facility .store{
+    position: relative;
+    top: 92px;
+    right: 138px;
+}
+.container-third{
+    position: relative;
+    bottom: 1081px;
+    left: 50px;
+}
+.container-third h2{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.menu-box{
+    float: left;
+    margin: 30px;
+    border: 2px solid red;
+    width: 20%;
+    background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%);
+}
+.menu-item{
+    margin: 13px;
+    border: 2px solid black;
+    background-color: white;
+}
+.menu-item img{
+    margin: 36px;
+}
